@@ -3,9 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <a href="exercice-1.html">Exercice 1</a>
-    <a href="exercice-2.html">Exercice 2</a>
+    <header>
+        <nav>
+            <div><p>Titre du site</p></div>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#about-me">À propos</a></li>
+                <li><a href="#competences">Mes compétences</a></li>
+                <li><a href="#hobbies">Mes passions</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1>Arthur BIERMAN</h1>
+            <h2>Développeur web</h2>
+        </div>
+        <div></div>
+    </header>
+    <main>
+        <section id="about-me" >
+            <h2>À propos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ipsum laudantium molestiae neque quae quibusdam quisquam quod sapiente temporibus voluptate? Ea eius nemo perferendis perspiciatis praesentium. Facere ipsam possimus quasi.</p>
+        </section>
+        </hr>
+        <section id="projects">
+            <h2>Mes projets</h2>
+            <ol>
+                <li>
+                    <button popovertarget="popover1">
+                        <div>
+                            <h3>Mon top des tables</h3>
+                            <img src="assets/img/table1.png" alt="Image d'une table">
+                            <p>clique pour ouvrir le détail</p>
+                        </div>
+                    </button>
+                    <div id="popover1" popover>
+                        <h2>Popover 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis distinctio ducimus eaque eveniet ipsum nisi quo veritatis? Accusamus alias consequuntur, dolorem facere ipsa ipsum mollitia necessitatibus obcaecati quos saepe?</p>
+                    </div>
+                </li>
+                <li>
+                    <button popovertarget="popover2">
+                        <div>
+                            <h3>Mon top des tables</h3>
+                            <img src="assets/img/table1.png" alt="Image d'une table">
+                            <p>clique pour ouvrir le détail</p>
+                        </div>
+                    </button>
+                    <div id="popover2" popover>
+                        <h2>Popover 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis distinctio ducimus eaque eveniet ipsum nisi quo veritatis? Accusamus alias consequuntur, dolorem facere ipsa ipsum mollitia necessitatibus obcaecati quos saepe?</p>
+                    </div>
+                </li>
+                <li>
+                    <button popovertarget="popover3">
+                        <div>
+                            <h3>Mon top des tables</h3>
+                            <img src="assets/img/table1.png" alt="Image d'une table">
+                            <p>clique pour ouvrir le détail</p>
+                        </div>
+                    </button>
+                    <div id="popover3" popover>
+                        <h2>Mon top des tables</h2>
+                    </div>
+                </li>
+            </ol>
+        </section>
+        <section id="competences">
+            <h2>Mes compétences</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section id="hobbies">
+            <h2>Mes passions</h2>
+            <ul>
+                <li>Échecs</li>
+                <li>Le trail</li>
+                <li>Dév web</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">À propos</a></li>
+                    <li><a href="">Mes compétences</a></li>
+                    <li><a href="">Mes passions</a></li>
+                </ul>
+            </nav>
+            <p><a href="mailto:cybarthur@gmail.com">cybarthur@gmail.com</a></p>
+        </div>
+
+    </footer>
 </body>
 </html>
